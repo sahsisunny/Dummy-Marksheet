@@ -1,6 +1,6 @@
 body {
      margin: 2;
-     
+
      padding: 0;
      border: 3px solid rgb(187, 13, 13);
      width: 1240px;
@@ -8,17 +8,17 @@ body {
 
 }
 
-body::before{
+body::before {
      background: url('https://upload.wikimedia.org/wikipedia/en/8/87/Patna_University.png') no-repeat center center/cover;
      content: "";
      position: absolute;
      top: 500px;
-     left: 300px;
-     width: 700px;
-     height: 700px;
+     left: 25px;
+     width: 1200px;
+     height: 800px;
      z-index: 1;
-     opacity: 0.3;
- }
+     opacity: 0.2;
+}
 
 .headText {
      text-align: center;
@@ -151,10 +151,12 @@ td {
 
      padding: 10px;
      font-family: 'Courier New', Courier, monospace;
-     font-size: 1.2rem;
+     font-size: 1.3rem;
      font-weight: bold;
      empty-cells: hide;
      border: 2px solid;
+     /* border-right: 2px solid; */
+     
 
 }
 
@@ -174,8 +176,6 @@ table {
      font-family: 'Courier New', Courier, monospace;
      font-size: 1.3rem;
      font-weight: bold;
-
-
 }
 
 #remark {
@@ -186,50 +186,49 @@ table {
 .end ul,
 .footerend ul {
      list-style: none;
-     
-     
 }
-.footerend{
+
+.footerend {
      display: block;
      position: relative;
      float: bottom;
      bottom: -375px;
-     
 }
 
 .line {
      border-top: 2px solid rgb(187, 13, 13);
      background-color: red;
      padding: 0;
-
 }
- .fend{
+
+.fend {
      display: flex;
      justify-content: space-between;
      padding: 15px;
 }
-.sign img{
+
+.sign img {
      width: 10%;
      display: inline-block;
      margin: auto;
      align-items: center;
 }
-#tabu{
-     padding-left: 20px;
-     
 
+#tabu {
+     padding-left: 20px;
 }
 
-#cont{
-    display: block;
+#cont {
+     display: block;
      position: relative;
      top: -34px;
 }
-#reg{
+
+#reg {
      float: right;
      padding-right: 20px;
      right: 20px;
-     top :86px;
+     top: 86px;
      display: block;
      position: absolute;
 }
