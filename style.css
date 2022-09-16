@@ -1,0 +1,235 @@
+body {
+     margin: 2;
+     
+     padding: 0;
+     border: 3px solid rgb(187, 13, 13);
+     width: 1240px;
+     height: 1754px;
+
+}
+
+body::before{
+     background: url('https://upload.wikimedia.org/wikipedia/en/8/87/Patna_University.png') no-repeat center center/cover;
+     content: "";
+     position: absolute;
+     top: 500px;
+     left: 300px;
+     width: 700px;
+     height: 700px;
+     z-index: 1;
+     opacity: 0.3;
+ }
+
+.headText {
+     text-align: center;
+     color: rgb(14, 14, 206);
+     font-size: 2rem;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     line-height: 0;
+     font-weight: bold;
+}
+
+.headText2 {
+     font-size: 1rem;
+}
+
+#pin {
+     font-family: 'Times New Roman', Times, serif;
+}
+
+.hindi {
+     font-family: 'Tiro Devanagari Hindi', serif;
+     list-style-type: none;
+     font-size: 3rem;
+     ;
+
+}
+
+.hindi2 {
+     font-size: 1rem;
+}
+
+.list {
+     list-style-type: none;
+}
+
+.state {
+     color: red;
+     font-size: 1rem;
+}
+
+.logo {
+     list-style: none;
+     display: block;
+     margin-top: 1px;
+     top: 30px;
+     left: 30px;
+     position: absolute;
+     /* border: 2px solid rgb(187, 13, 13); */
+     font-family: 'Courier New', Courier, monospace;
+     font-size: 1rem;
+     color: black;
+
+}
+
+.logo img {
+     width: 120px;
+
+}
+
+
+/* FOr subject */
+
+
+.output {
+     font-family: 'Courier New', Courier, monospace;
+     font-size: 1.5rem;
+     font-weight: bold;
+}
+
+.subject,
+.personal {
+     padding: 10px;
+     line-height: 0;
+     font-size: 1.5rem;
+     margin-left: 20px;
+}
+
+#ename {
+     position: relative;
+     left: -234px;
+}
+
+#pname {
+     margin-bottom: 60px;
+}
+
+
+#cname {
+     position: relative;
+     top: -80px;
+     float: right;
+     right: 30px;
+}
+
+
+.year {
+     position: relative;
+     top: -57px;
+     float: left;
+     right: -121px;
+}
+
+#rname {
+     position: relative;
+     right: -782px;
+     top: -41px;
+
+}
+
+#cname2 {
+     position: relative;
+     top: -62px;
+     float: right;
+     right: 30px;
+}
+
+
+#pname2 {
+     margin-bottom: 40px;
+}
+
+
+/*  For marks */
+.subname {
+     padding: 10px;
+}
+
+.tabHead table,
+td {
+     border-spacing: 1em;
+
+     padding: 10px;
+     font-family: 'Courier New', Courier, monospace;
+     font-size: 1.2rem;
+     font-weight: bold;
+     empty-cells: hide;
+     border: 2px solid;
+
+}
+
+table {
+     width: 100%;
+}
+
+#headTab {
+     text-align: center;
+}
+
+#tabLeft {
+     text-align: left;
+}
+
+.foot {
+     font-family: 'Courier New', Courier, monospace;
+     font-size: 1.3rem;
+     font-weight: bold;
+
+
+}
+
+#remark {
+     padding-left: 15px;
+     line-height: 1px;
+}
+
+.end ul,
+.footerend ul {
+     list-style: none;
+     
+     
+}
+.footerend{
+     display: block;
+     position: relative;
+     float: bottom;
+     bottom: -375px;
+     
+}
+
+.line {
+     border-top: 2px solid rgb(187, 13, 13);
+     background-color: red;
+     padding: 0;
+
+}
+ .fend{
+     display: flex;
+     justify-content: space-between;
+     padding: 15px;
+}
+.sign img{
+     width: 10%;
+     display: inline-block;
+     margin: auto;
+     align-items: center;
+}
+#tabu{
+     padding-left: 20px;
+     
+
+}
+
+#cont{
+    display: block;
+     position: relative;
+     top: -34px;
+}
+#reg{
+     float: right;
+     padding-right: 20px;
+     right: 20px;
+     top :86px;
+     display: block;
+     position: absolute;
+}
