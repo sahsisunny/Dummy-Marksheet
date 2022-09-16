@@ -87,6 +87,12 @@ body::before {
      font-weight: bold;
 }
 
+.out {
+     font-family: 'Courier New', Courier, monospace;
+     font-size: 1rem;
+     font-weight: bold;
+}
+
 .subject,
 .personal {
      padding: 10px;
@@ -140,29 +146,51 @@ body::before {
 }
 
 
-/*  For marks */
-.subname {
-     padding: 10px;
+
+.tabHead {
+
+     border-top: 4px solid rgb(30, 24, 139);
+     border-bottom: 4px solid rgb(30, 24, 139);
+     border-collapse: collapse;
 }
 
-.tabHead table,
+.btab {
+     border-bottom: 2px dashed;
+
+}
+
+.lrtab {
+     border-left: 2px dash;
+     border-right: 2px solid;
+}
+
+.rtab {
+     border-right: 2px solid;
+}
+
+.ltab {
+     border-right: 2px solid;
+}
+
 td {
      border-spacing: 1em;
-
-     padding: 10px;
+     padding-bottom: 8px;
+     padding-top: 8px;
      font-family: 'Courier New', Courier, monospace;
      font-size: 1.3rem;
      font-weight: bold;
      empty-cells: hide;
-     border: 2px solid;
-     /* border-right: 2px solid; */
-     
 
+}
+
+.gt {
+     padding-left: 5px;
 }
 
 table {
      width: 100%;
 }
+
 
 #headTab {
      text-align: center;
@@ -180,7 +208,7 @@ table {
 
 #remark {
      padding-left: 15px;
-     line-height: 1px;
+     line-height: 5px;
 }
 
 .end ul,
@@ -192,12 +220,12 @@ table {
      display: block;
      position: relative;
      float: bottom;
-     bottom: -375px;
+     bottom: -440px;
 }
 
 .line {
-     border-top: 2px solid rgb(187, 13, 13);
-     background-color: red;
+     border-top: 4px solid rgb(30, 24, 139);
+     background-color: rgb(30, 24, 139);
      padding: 0;
 }
 
