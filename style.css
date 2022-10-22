@@ -103,7 +103,7 @@ body::before {
 
 #ename {
      position: relative;
-     left: -234px;
+     left: -220px;
 }
 
 #pname {
@@ -259,4 +259,8 @@ table {
      top: 86px;
      display: block;
      position: absolute;
+}
+
+@page {
+     size: 7in 9.25in;
 }
